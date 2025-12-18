@@ -1,0 +1,15 @@
+name = "Root's Battlefield Commander (BATCOM)";
+author = "Root";
+tooltip = "Root's Battlefield Commander";
+tooltipOwned = "Root's Battlefield Commander";
+picture = "batcom_logo.paa";
+logo = "batcom_logo.paa";
+logoOver = "batcom_logo.paa";
+logoSmall = "batcom_logo.paa";
+action = "https://github.com/A3-Root/batcom";
+actionName = "Website";
+overview = "Root's Battlefield Commander";
+hidePicture = 0;
+hideName = 0;
+overviewText = "Root's Battlefield Commander";
+overviewFootnote = "An arma 3 extension to use GPT like AI as a fully customizable battlefield commander  which can dictate and command AI units based on player's style, tactic, choices, mission parameters, or anything else a mission maker can think of.";

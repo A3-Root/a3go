@@ -1,0 +1,1884 @@
+2025-12-15T21:29:25.891098Z TRACE ThreadId(01) version: 1.18.0
+2025-12-15T21:29:25.891177Z TRACE ThreadId(01) platform: windows
+2025-12-15T21:29:25.891193Z TRACE ThreadId(01) args: [
+    "hemtt",
+    "build",
+]
+2025-12-15T21:29:25.892948Z TRACE ThreadId(01) using temporary folder: "C:\\Users\\Mark\\AppData\\Local\\Temp\\hemtt\\Games_Arma 3_# Git_Root_BattlefieldCommander"
+2025-12-15T21:29:25.892972Z TRACE ThreadId(01) using project folder: "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander"
+2025-12-15T21:29:25.893017Z TRACE ThreadId(01) using out folder: "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout"
+2025-12-15T21:29:25.893244Z TRACE ThreadId(01) using build folder: "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build"
+2025-12-15T21:29:25.894176Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/main/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\Mark\\AppData\\Local\\Temp\\hemtt\\Games_Arma 3_# Git_Root_BattlefieldCommander\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander" } } } } } }] } } }
+2025-12-15T21:29:25.894403Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/main/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\Mark\\AppData\\Local\\Temp\\hemtt\\Games_Arma 3_# Git_Root_BattlefieldCommander\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander" } } } } } }] } } }
+2025-12-15T21:29:25.897547Z TRACE ThreadId(01) reading version from project.toml
+2025-12-15T21:29:25.897643Z  INFO ThreadId(01) Config loaded for Root's Battlefield Commander (BATCOM) 1.0.0.0
+2025-12-15T21:29:25.897706Z TRACE ThreadId(01) Scanning G:\Games\Arma 3\# Git\Root_BattlefieldCommander\addons for addons
+2025-12-15T21:29:25.899289Z DEBUG ThreadId(01) using global config directory: "C:\\Users\\Mark\\AppData\\Roaming\\hemtt"
+2025-12-15T21:29:25.899412Z  INFO ThreadId(01) Creating `build` version
+2025-12-15T21:29:25.899434Z TRACE ThreadId(01) phase: init (BOM Check) (start)
+2025-12-15T21:29:25.899442Z TRACE ThreadId(01) phase: init (BOM Check) (done)
+2025-12-15T21:29:25.899444Z TRACE ThreadId(01) phase: init (Final New Line Check) (start)
+2025-12-15T21:29:25.899446Z TRACE ThreadId(01) phase: init (Final New Line Check) (done)
+2025-12-15T21:29:25.899449Z TRACE ThreadId(01) phase: init (Hooks) (start)
+2025-12-15T21:29:25.899484Z TRACE ThreadId(01) no hooks folder
+2025-12-15T21:29:25.899487Z TRACE ThreadId(01) phase: init (Hooks) (done)
+2025-12-15T21:29:25.899490Z TRACE ThreadId(01) phase: init (Binarize) (start)
+2025-12-15T21:29:25.899496Z TRACE ThreadId(01) Using Binarize path from registry
+2025-12-15T21:29:25.900184Z TRACE ThreadId(01) junction link "C:\\Users\\Mark\\AppData\\Local\\Temp\\hemtt\\Games_Arma 3_# Git_Root_BattlefieldCommander\\z\\root_batcom\\addons\\main" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\addons\\main"
+2025-12-15T21:29:25.917949Z TRACE ThreadId(01) phase: init (Binarize) (done)
+2025-12-15T21:29:25.917966Z TRACE ThreadId(01) phase: init (tex_headers) (start)
+2025-12-15T21:29:25.917969Z TRACE ThreadId(01) phase: init (tex_headers) (done)
+2025-12-15T21:29:25.917972Z TRACE ThreadId(01) phase: init (Files) (start)
+2025-12-15T21:29:25.917974Z TRACE ThreadId(01) phase: init (Files) (done)
+2025-12-15T21:29:25.917976Z TRACE ThreadId(01) phase: init (Meta) (start)
+2025-12-15T21:29:25.917978Z TRACE ThreadId(01) phase: init (Meta) (done)
+2025-12-15T21:29:25.917980Z TRACE ThreadId(01) phase: init (summary) (start)
+2025-12-15T21:29:25.917982Z TRACE ThreadId(01) phase: init (summary) (done)
+2025-12-15T21:29:25.918012Z TRACE ThreadId(01) phase: init (Rapifier) (start)
+2025-12-15T21:29:25.918015Z TRACE ThreadId(01) phase: init (Rapifier) (done)
+2025-12-15T21:29:25.918018Z TRACE ThreadId(01) phase: init (SQF) (start)
+2025-12-15T21:29:26.176647Z TRACE ThreadId(01) phase: init (SQF) (done)
+2025-12-15T21:29:26.176662Z TRACE ThreadId(01) phase: init (Stringtables) (start)
+2025-12-15T21:29:26.176665Z TRACE ThreadId(01) phase: init (Stringtables) (done)
+2025-12-15T21:29:26.176668Z TRACE ThreadId(01) phase: check (BOM Check) (start)
+2025-12-15T21:29:26.177923Z TRACE ThreadId(01) phase: check (BOM Check) (done)
+2025-12-15T21:29:26.177931Z TRACE ThreadId(01) phase: check (Final New Line Check) (start)
+2025-12-15T21:29:26.179120Z TRACE ThreadId(01) phase: check (Final New Line Check) (done)
+2025-12-15T21:29:26.179126Z TRACE ThreadId(01) phase: check (Hooks) (start)
+2025-12-15T21:29:26.179129Z TRACE ThreadId(01) phase: check (Hooks) (done)
+2025-12-15T21:29:26.179131Z TRACE ThreadId(01) phase: check (Binarize) (start)
+2025-12-15T21:29:26.185466Z  INFO ThreadId(01) Validated 0 files for binarization
+2025-12-15T21:29:26.185478Z TRACE ThreadId(01) phase: check (Binarize) (done)
+2025-12-15T21:29:26.185481Z TRACE ThreadId(01) phase: check (tex_headers) (start)
+2025-12-15T21:29:26.185483Z TRACE ThreadId(01) phase: check (tex_headers) (done)
+2025-12-15T21:29:26.185485Z TRACE ThreadId(01) phase: check (Files) (start)
+2025-12-15T21:29:26.185487Z TRACE ThreadId(01) phase: check (Files) (done)
+2025-12-15T21:29:26.185489Z TRACE ThreadId(01) phase: check (Meta) (start)
+2025-12-15T21:29:26.185491Z TRACE ThreadId(01) phase: check (Meta) (done)
+2025-12-15T21:29:26.185493Z TRACE ThreadId(01) phase: check (summary) (start)
+2025-12-15T21:29:26.185494Z TRACE ThreadId(01) phase: check (summary) (done)
+2025-12-15T21:29:26.185496Z TRACE ThreadId(01) phase: check (Rapifier) (start)
+2025-12-15T21:29:26.185552Z TRACE ThreadId(01) phase: check (Rapifier) (done)
+2025-12-15T21:29:26.185567Z TRACE ThreadId(01) phase: check (SQF) (start)
+2025-12-15T21:29:26.185663Z TRACE ThreadId(01) phase: check (SQF) (done)
+2025-12-15T21:29:26.185665Z TRACE ThreadId(01) phase: check (Stringtables) (start)
+2025-12-15T21:29:26.185688Z TRACE ThreadId(01) phase: check (Stringtables) (done)
+2025-12-15T21:29:26.185690Z TRACE ThreadId(01) phase: pre_build (BOM Check) (start)
+2025-12-15T21:29:26.185692Z TRACE ThreadId(01) phase: pre_build (BOM Check) (done)
+2025-12-15T21:29:26.185694Z TRACE ThreadId(01) phase: pre_build (Final New Line Check) (start)
+2025-12-15T21:29:26.185696Z TRACE ThreadId(01) phase: pre_build (Final New Line Check) (done)
+2025-12-15T21:29:26.185698Z TRACE ThreadId(01) phase: pre_build (Hooks) (start)
+2025-12-15T21:29:26.185702Z TRACE ThreadId(01) phase: pre_build (Hooks) (done)
+2025-12-15T21:29:26.185704Z TRACE ThreadId(01) phase: pre_build (Binarize) (start)
+2025-12-15T21:29:26.191091Z  INFO ThreadId(01) Binarized 0 files
+2025-12-15T21:29:26.191109Z TRACE ThreadId(01) phase: pre_build (Binarize) (done)
+2025-12-15T21:29:26.191112Z TRACE ThreadId(01) phase: pre_build (tex_headers) (start)
+2025-12-15T21:29:26.193152Z  INFO ThreadId(01) Generated 0 texture headers
+2025-12-15T21:29:26.193167Z TRACE ThreadId(01) phase: pre_build (tex_headers) (done)
+2025-12-15T21:29:26.193170Z TRACE ThreadId(01) phase: pre_build (Files) (start)
+2025-12-15T21:29:26.193172Z TRACE ThreadId(01) phase: pre_build (Files) (done)
+2025-12-15T21:29:26.193174Z TRACE ThreadId(01) phase: pre_build (Meta) (start)
+2025-12-15T21:29:26.193176Z TRACE ThreadId(01) phase: pre_build (Meta) (done)
+2025-12-15T21:29:26.193178Z TRACE ThreadId(01) phase: pre_build (summary) (start)
+2025-12-15T21:29:26.193180Z TRACE ThreadId(01) phase: pre_build (summary) (done)
+2025-12-15T21:29:26.193182Z TRACE ThreadId(01) phase: pre_build (Rapifier) (start)
+2025-12-15T21:29:26.207894Z  INFO ThreadId(01) Rapified 1 addon configs
+2025-12-15T21:29:26.207934Z TRACE ThreadId(01) phase: pre_build (Rapifier) (done)
+2025-12-15T21:29:26.207951Z TRACE ThreadId(01) phase: pre_build (SQF) (start)
+2025-12-15T21:29:26.218216Z TRACE ThreadId(09) sqf compiling /addons/main/functions/fn_arrayToHashmap.sqf
+2025-12-15T21:29:26.218238Z TRACE ThreadId(14) sqf compiling /addons/main/functions/fn_getTokenStats.sqf
+2025-12-15T21:29:26.218250Z TRACE ThreadId(12) sqf compiling /addons/main/functions/fn_testGeminiConnection.sqf
+2025-12-15T21:29:26.218262Z TRACE ThreadId(20) sqf compiling /addons/main/functions/fn_commanderEndAO.sqf
+2025-12-15T21:29:26.218277Z TRACE ThreadId(21) sqf compiling /addons/main/functions/fn_shutdown.sqf
+2025-12-15T21:29:26.218291Z TRACE ThreadId(25) sqf compiling /addons/main/functions/fn_logMessage.sqf
+2025-12-15T21:29:26.218301Z TRACE ThreadId(23) sqf compiling /addons/main/functions/fn_commanderStartAO.sqf
+2025-12-15T21:29:26.218313Z TRACE ThreadId(26) sqf compiling /addons/main/functions/fn_applyCommands.sqf
+2025-12-15T21:29:26.218251Z TRACE ThreadId(16) sqf compiling /addons/main/functions/fn_applyDeployAssetCommand.sqf
+2025-12-15T21:29:26.218260Z TRACE ThreadId(17) sqf compiling /addons/main/functions/fn_resolveGroup.sqf
+2025-12-15T21:29:26.218267Z TRACE ThreadId(18) sqf compiling /addons/main/functions/fn_pythiaCall.sqf
+2025-12-15T21:29:26.218268Z TRACE ThreadId(10) sqf compiling /addons/main/functions/fn_batcomDebug.sqf
+2025-12-15T21:29:26.218271Z TRACE ThreadId(19) sqf compiling /addons/main/functions/fn_applyTransportCommand.sqf
+2025-12-15T21:29:26.218280Z TRACE ThreadId(03) sqf compiling /addons/main/XEH_preInit.sqf
+2025-12-15T21:29:26.218282Z TRACE ThreadId(11) sqf compiling /addons/main/functions/fn_scanGroups.sqf
+2025-12-15T21:29:26.218213Z TRACE ThreadId(08) sqf compiling /addons/main/scripts/worldScanLoop.sqf
+2025-12-15T21:29:26.218293Z TRACE ThreadId(22) sqf compiling /addons/main/functions/fn_applyEscortCommand.sqf
+2025-12-15T21:29:26.218217Z TRACE ThreadId(06) sqf compiling /addons/main/functions/fn_debugInit.sqf
+2025-12-15T21:29:26.218214Z TRACE ThreadId(04) sqf compiling /addons/main/functions/fn_init.sqf
+2025-12-15T21:29:26.218242Z TRACE ThreadId(05) sqf compiling /addons/main/functions/fn_applySpawnCommand.sqf
+2025-12-15T21:29:26.218302Z TRACE ThreadId(15) sqf compiling /addons/main/functions/fn_testPythia.sqf
+2025-12-15T21:29:26.218247Z TRACE ThreadId(13) sqf compiling /addons/main/functions/fn_debugLog.sqf
+2025-12-15T21:29:26.218243Z TRACE ThreadId(07) sqf compiling /addons/main/functions/fn_getGroupType.sqf
+2025-12-15T21:29:26.218287Z TRACE ThreadId(24) sqf compiling /addons/main/functions/fn_applyFireSupportCommand.sqf
+2025-12-15T21:29:26.225216Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.225235Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.225246Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.225250Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.225965Z TRACE ThreadId(23) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.225977Z TRACE ThreadId(23) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.226003Z TRACE ThreadId(23) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.226007Z TRACE ThreadId(23) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.226021Z TRACE ThreadId(23) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.226050Z TRACE ThreadId(23) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.226378Z TRACE ThreadId(17) sqf compiling /addons/main/functions/fn_deployCommander.sqf
+2025-12-15T21:29:26.227067Z TRACE ThreadId(23) sqf compiling /addons/main/functions/fn_batcomAutoInit.sqf
+2025-12-15T21:29:26.227923Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.227951Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.227958Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.227964Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.227969Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.227978Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.227997Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.228016Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.228027Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.228034Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.228040Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.228055Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.228061Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.228072Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.228075Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.228079Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.228095Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.228102Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.228110Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.228121Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.228126Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.228136Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.228142Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.228188Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.228205Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.228213Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.228216Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.228218Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.228226Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.228240Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.228251Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.228259Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.228546Z TRACE ThreadId(16) sqf compiling /addons/main/functions/fn_batcomResourcePoolUI.sqf
+2025-12-15T21:29:26.229471Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.229481Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.229493Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.229546Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.229618Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.229675Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.229684Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.229687Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.229623Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.229721Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.229719Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.229745Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.229761Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.229779Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.229790Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.229792Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.229798Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.229803Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.229816Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.229819Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.229820Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.229862Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.229867Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.229902Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.229911Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.229915Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.229926Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.229936Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.229948Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.229971Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.229951Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.229981Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.229987Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.229981Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.230007Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.230012Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.230018Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.230037Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.230040Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.230044Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.230057Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.230059Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.230061Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.230078Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.230079Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.230082Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.230091Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.230121Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.230129Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.230132Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.230163Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.230186Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.230217Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.230235Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.230283Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.230307Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.230318Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.230325Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.230342Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.230386Z TRACE ThreadId(19) sqf compiling /addons/main/functions/fn_aoProgress.sqf
+2025-12-15T21:29:26.230478Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.230495Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.230507Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.230531Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.230537Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.230580Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.230606Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.230630Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.230678Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.230681Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.230687Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.231407Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.231672Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.231681Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.231686Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.231692Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.231710Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.231712Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.231722Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.231728Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.231730Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.231735Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.231739Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.231760Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.231769Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.231775Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.231809Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.231832Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.231870Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.231878Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.231885Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.231987Z TRACE ThreadId(13) sqf compiling /addons/main/functions/fn_applyPatrolCommand.sqf
+2025-12-15T21:29:26.232209Z TRACE ThreadId(25) sqf compiling /addons/main/XEH_postInit.sqf
+2025-12-15T21:29:26.232525Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.232537Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.232564Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.232578Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.232595Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.232659Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.232663Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.232717Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.232722Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.232724Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.232740Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.232756Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.232774Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.232781Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.232786Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.232852Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.232895Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.232907Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.232913Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.232928Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.232936Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.232940Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.232957Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.232960Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.232987Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.233009Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.233038Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.233065Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.233097Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.233102Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.233104Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.233121Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.233152Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.233166Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.233169Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.233185Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.233189Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.233192Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.233199Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.233214Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.233220Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.233242Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.233274Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.233304Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.233316Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.233334Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.233364Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.233380Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.233398Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.233748Z TRACE ThreadId(24) sqf compiling /addons/main/functions/fn_trackObjectiveContributions.sqf
+2025-12-15T21:29:26.234773Z TRACE ThreadId(10) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.234803Z TRACE ThreadId(10) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.235197Z TRACE ThreadId(12) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.235215Z TRACE ThreadId(12) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.235224Z TRACE ThreadId(12) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.235228Z TRACE ThreadId(12) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.235324Z TRACE ThreadId(12) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.235346Z TRACE ThreadId(12) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.235351Z TRACE ThreadId(12) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.235394Z TRACE ThreadId(12) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.235425Z TRACE ThreadId(12) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.235445Z TRACE ThreadId(12) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.235457Z TRACE ThreadId(12) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.235515Z TRACE ThreadId(12) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.235551Z TRACE ThreadId(12) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.235571Z TRACE ThreadId(12) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.235596Z TRACE ThreadId(12) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.235648Z TRACE ThreadId(12) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.235653Z TRACE ThreadId(12) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.235664Z TRACE ThreadId(12) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.235880Z TRACE ThreadId(20) sqf compiling /addons/main/functions/fn_trackAOObjectives.sqf
+2025-12-15T21:29:26.236272Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.236285Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.236361Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.236415Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.236452Z TRACE ThreadId(22) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.236453Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.236509Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.236516Z TRACE ThreadId(22) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.236523Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.236533Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.236536Z TRACE ThreadId(22) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.236551Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.236602Z TRACE ThreadId(22) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.236618Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.236653Z TRACE ThreadId(22) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.236658Z TRACE ThreadId(18) sqf compiling /addons/main/functions/fn_hasFlashlight.sqf
+2025-12-15T21:29:26.236669Z TRACE ThreadId(22) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.236678Z TRACE ThreadId(22) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.236689Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.236696Z TRACE ThreadId(22) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.236709Z TRACE ThreadId(22) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.236718Z TRACE ThreadId(22) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.236731Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.236732Z TRACE ThreadId(22) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.236758Z TRACE ThreadId(22) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.236762Z TRACE ThreadId(22) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.236769Z TRACE ThreadId(22) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.236772Z TRACE ThreadId(21) sqf compiling /addons/main/functions/fn_batcomAOLifecycle.sqf
+2025-12-15T21:29:26.236821Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.236834Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.236846Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.236853Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.236846Z TRACE ThreadId(22) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.236872Z TRACE ThreadId(22) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.236890Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.236901Z TRACE ThreadId(22) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.236917Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.236951Z TRACE ThreadId(22) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.236982Z TRACE ThreadId(22) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.236993Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.237003Z TRACE ThreadId(22) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.236957Z TRACE ThreadId(06) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.237009Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.237029Z TRACE ThreadId(22) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.237109Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.237111Z TRACE ThreadId(22) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.237121Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.237126Z TRACE ThreadId(22) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.237136Z TRACE ThreadId(22) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.237185Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.237192Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.237224Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.237232Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.237253Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.237311Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.237317Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.237269Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.237049Z TRACE ThreadId(06) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.237358Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.237403Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.237498Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.237430Z TRACE ThreadId(06) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.237553Z TRACE ThreadId(10) sqf compiling /addons/main/functions/fn_killCommander.sqf
+2025-12-15T21:29:26.237567Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.237576Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.237534Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.237591Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.237590Z TRACE ThreadId(06) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.237659Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.237667Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.237682Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.237681Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.237701Z TRACE ThreadId(06) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.237732Z TRACE ThreadId(06) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.237764Z TRACE ThreadId(06) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.237780Z TRACE ThreadId(25) sqf compiling /addons/main/scripts/commandProcessLoop.sqf
+2025-12-15T21:29:26.237793Z TRACE ThreadId(06) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.237812Z TRACE ThreadId(06) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.237836Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.237842Z TRACE ThreadId(06) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.237863Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.237888Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.237877Z TRACE ThreadId(06) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.237910Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.237936Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.237963Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.237985Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.238002Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.238012Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.238022Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.238027Z TRACE ThreadId(06) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.238032Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.238043Z TRACE ThreadId(06) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.238077Z TRACE ThreadId(06) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.238522Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.238588Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.238648Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.238658Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.238664Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.238775Z TRACE ThreadId(09) sqf compiling /addons/main/functions/fn_applySeekCommand.sqf
+2025-12-15T21:29:26.238797Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.238828Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.238801Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.238915Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.238857Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.238937Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.238942Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.238958Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.238963Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.238974Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.238982Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.238982Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.239022Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.239048Z TRACE ThreadId(12) sqf compiling /addons/main/functions/fn_addObjective.sqf
+2025-12-15T21:29:26.239096Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.239142Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.239153Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.239182Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.239193Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.239201Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.239205Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.239212Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.239225Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.239238Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.239247Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.239271Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.239276Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.239297Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.239310Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.239337Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.238997Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.239444Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.239452Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.239510Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.239519Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.239635Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.239796Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.239821Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.239937Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.239951Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.239961Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.239990Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240020Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240021Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240045Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240050Z TRACE ThreadId(22) sqf compiling /addons/main/functions/fn_hashmapToArray.sqf
+2025-12-15T21:29:26.240091Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240100Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240104Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240123Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240126Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240136Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240170Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240184Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240191Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240170Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240211Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240240Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240246Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240262Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240276Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240292Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240298Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240320Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240326Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240335Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240346Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240354Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240363Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240372Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240388Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240399Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240400Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240410Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240473Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240476Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240490Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240540Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240556Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240597Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240610Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240644Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240723Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240838Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240906Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240922Z TRACE ThreadId(10) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240939Z TRACE ThreadId(10) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240950Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240959Z TRACE ThreadId(10) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240984Z TRACE ThreadId(10) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240996Z TRACE ThreadId(10) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.241022Z TRACE ThreadId(10) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.240960Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.241288Z TRACE ThreadId(26) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.241300Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.241317Z TRACE ThreadId(26) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.241334Z TRACE ThreadId(26) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.241353Z TRACE ThreadId(26) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.241357Z TRACE ThreadId(26) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.241379Z TRACE ThreadId(26) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.241357Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.241501Z TRACE ThreadId(26) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.241506Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.241547Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.241510Z TRACE ThreadId(26) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.241558Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.241620Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.241623Z TRACE ThreadId(06) sqf compiling /addons/main/functions/fn_getGroupId.sqf
+2025-12-15T21:29:26.241674Z TRACE ThreadId(26) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.241678Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.241690Z TRACE ThreadId(26) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.241731Z TRACE ThreadId(26) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.241753Z TRACE ThreadId(26) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.241768Z TRACE ThreadId(14) sqf compiling /addons/main/functions/fn_applyDefendCommand.sqf
+2025-12-15T21:29:26.241791Z TRACE ThreadId(26) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.241825Z TRACE ThreadId(26) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.241849Z TRACE ThreadId(26) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.241898Z TRACE ThreadId(26) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.241949Z TRACE ThreadId(26) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.241983Z TRACE ThreadId(26) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.241991Z TRACE ThreadId(26) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.242027Z TRACE ThreadId(26) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.242040Z TRACE ThreadId(26) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.242080Z TRACE ThreadId(26) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.242093Z TRACE ThreadId(26) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.242109Z TRACE ThreadId(26) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.242217Z TRACE ThreadId(13) sqf compiling /addons/main/functions/fn_getSpawnAltitude.sqf
+2025-12-15T21:29:26.242250Z TRACE ThreadId(26) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.242414Z TRACE ThreadId(26) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.242429Z TRACE ThreadId(26) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.242526Z TRACE ThreadId(26) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.242537Z TRACE ThreadId(26) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.242548Z TRACE ThreadId(17) sqf compiling /addons/main/functions/fn_initCasualtyTracking.sqf
+2025-12-15T21:29:26.242595Z TRACE ThreadId(24) sqf compiling /addons/main/functions/fn_batcomSetAOBoundary.sqf
+2025-12-15T21:29:26.242598Z TRACE ThreadId(26) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.242662Z TRACE ThreadId(10) sqf compiling /addons/main/functions/fn_scanObjectives.sqf
+2025-12-15T21:29:26.242670Z TRACE ThreadId(07) sqf compiling /addons/main/functions/fn_testInitConfig.sqf
+2025-12-15T21:29:26.243078Z TRACE ThreadId(15) sqf compiling /addons/main/functions/fn_batcomInit.sqf
+2025-12-15T21:29:26.243232Z TRACE ThreadId(18) sqf compiling /addons/main/functions/fn_getResourcePoolTemplate.sqf
+2025-12-15T21:29:26.244526Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.244543Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.244547Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.244614Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.244619Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.244621Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.244641Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.244650Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.244662Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.244674Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.244680Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.244642Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.244691Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.244721Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.244729Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.244737Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.244771Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.244801Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.244825Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.245272Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.245287Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.245320Z TRACE ThreadId(12) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.245352Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.245371Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.245335Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.245397Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.245431Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.245439Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.245459Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.245510Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.245519Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.245525Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.245539Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.245556Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.245559Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.245587Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.245598Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.245607Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.245649Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.245648Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.245673Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.245688Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.245711Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.245724Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.245749Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.245760Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.245770Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.245783Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.245790Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.245798Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.245817Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.245829Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.245844Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.245863Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.245846Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.245886Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.245908Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.245923Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.245959Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.245973Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.245984Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.245987Z TRACE ThreadId(21) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246001Z TRACE ThreadId(21) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.245903Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246031Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246043Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246053Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246052Z TRACE ThreadId(12) sqf compiling /addons/main/functions/fn_getDefaultAssetClasses.sqf
+2025-12-15T21:29:26.246064Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246077Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246068Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246100Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246116Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246125Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246123Z TRACE ThreadId(08) sqf compiling /addons/main/functions/fn_worldScan.sqf
+2025-12-15T21:29:26.246138Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246174Z TRACE ThreadId(21) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246142Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246199Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246228Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246231Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246259Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246261Z TRACE ThreadId(21) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246280Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246322Z TRACE ThreadId(21) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246341Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246327Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246378Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246392Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246412Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246434Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246446Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246501Z TRACE ThreadId(21) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246511Z TRACE ThreadId(21) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246525Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246530Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246263Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246539Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246589Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246608Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246626Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246610Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246590Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246688Z TRACE ThreadId(19) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246530Z TRACE ThreadId(21) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246709Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246736Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246618Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246764Z TRACE ThreadId(21) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246777Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246795Z TRACE ThreadId(21) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246797Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246826Z TRACE ThreadId(21) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246815Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246835Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246846Z TRACE ThreadId(21) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246863Z TRACE ThreadId(21) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246866Z TRACE ThreadId(21) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246868Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246759Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246900Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246913Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246917Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246887Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246926Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246949Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246973Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246874Z TRACE ThreadId(21) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.247015Z TRACE ThreadId(21) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.247031Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.246924Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.247034Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.247063Z TRACE ThreadId(21) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.247116Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.247143Z TRACE ThreadId(21) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.247156Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.247166Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.247177Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.247170Z TRACE ThreadId(21) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.247205Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.247219Z TRACE ThreadId(21) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.247278Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.247294Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.247326Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.247243Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.247362Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.247206Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.247235Z TRACE ThreadId(06) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.247402Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.247418Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.247419Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.247430Z TRACE ThreadId(06) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.247444Z TRACE ThreadId(06) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.247458Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.247468Z TRACE ThreadId(06) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.247472Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.247487Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.247493Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.247506Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.247473Z TRACE ThreadId(06) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.247519Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.247523Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.247564Z TRACE ThreadId(06) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.247577Z TRACE ThreadId(06) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.247587Z TRACE ThreadId(06) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.247609Z TRACE ThreadId(06) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.247618Z TRACE ThreadId(06) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.248102Z TRACE ThreadId(06) sqf compiling /addons/main/functions/fn_isEnabled.sqf
+2025-12-15T21:29:26.248551Z TRACE ThreadId(26) sqf compiling /addons/main/functions/fn_scanPlayers.sqf
+2025-12-15T21:29:26.249056Z TRACE ThreadId(22) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.249073Z TRACE ThreadId(22) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.249115Z TRACE ThreadId(22) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.249140Z TRACE ThreadId(22) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.249169Z TRACE ThreadId(22) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.249206Z TRACE ThreadId(22) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.249268Z TRACE ThreadId(22) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.249284Z TRACE ThreadId(22) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.249290Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.249318Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.249325Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.249341Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.249348Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.249354Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.249360Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.249362Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.249367Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.249375Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.249385Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.249390Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.249292Z TRACE ThreadId(22) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.249413Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.249453Z TRACE ThreadId(09) sqf compiling /addons/main/functions/fn_setMissionIntent.sqf
+2025-12-15T21:29:26.249473Z TRACE ThreadId(22) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.249487Z TRACE ThreadId(23) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.249514Z TRACE ThreadId(23) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.249460Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.249525Z TRACE ThreadId(23) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.249538Z TRACE ThreadId(23) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.249561Z TRACE ThreadId(22) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.249589Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.249604Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.249613Z TRACE ThreadId(22) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.249623Z TRACE ThreadId(22) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.249615Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.249659Z TRACE ThreadId(23) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.249692Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.249759Z TRACE ThreadId(23) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.249756Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.249845Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.249855Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.249873Z TRACE ThreadId(22) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.249885Z TRACE ThreadId(23) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.249908Z TRACE ThreadId(23) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.249991Z TRACE ThreadId(23) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.250018Z TRACE ThreadId(23) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.250065Z TRACE ThreadId(23) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.250073Z TRACE ThreadId(23) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.250113Z TRACE ThreadId(23) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.250243Z TRACE ThreadId(23) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.250248Z TRACE ThreadId(23) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.250263Z TRACE ThreadId(23) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.250272Z TRACE ThreadId(23) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.250271Z TRACE ThreadId(25) sqf compiling /addons/main/functions/fn_applyMoveCommand.sqf
+2025-12-15T21:29:26.250424Z TRACE ThreadId(23) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.250429Z TRACE ThreadId(22) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.250453Z TRACE ThreadId(22) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.250476Z TRACE ThreadId(23) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.250481Z TRACE ThreadId(23) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.250501Z TRACE ThreadId(22) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.250510Z TRACE ThreadId(22) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.250557Z TRACE ThreadId(22) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.250560Z TRACE ThreadId(23) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.250585Z TRACE ThreadId(22) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.250588Z TRACE ThreadId(23) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.250718Z TRACE ThreadId(23) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.250726Z TRACE ThreadId(23) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.250765Z TRACE ThreadId(23) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.250909Z TRACE ThreadId(23) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.250914Z TRACE ThreadId(23) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.250929Z TRACE ThreadId(23) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.250938Z TRACE ThreadId(23) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.250987Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.251001Z TRACE ThreadId(23) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.251043Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.251138Z TRACE ThreadId(23) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.251164Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.251223Z TRACE ThreadId(23) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.251257Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.251272Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.251312Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.251324Z TRACE ThreadId(23) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.251335Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.251350Z TRACE ThreadId(23) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.251360Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.251430Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.251477Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.251533Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.251594Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.251644Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.251685Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.251721Z TRACE ThreadId(03) sqf compiling /addons/main/functions/fn_taskComplete.sqf
+2025-12-15T21:29:26.251758Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.251357Z TRACE ThreadId(23) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.251869Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.251916Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.251952Z TRACE ThreadId(23) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.251962Z TRACE ThreadId(23) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.251981Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.251986Z TRACE ThreadId(06) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.252007Z TRACE ThreadId(06) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.252010Z TRACE ThreadId(23) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.252031Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.252033Z TRACE ThreadId(23) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.252075Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.252111Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.252120Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.252174Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.252195Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.252201Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.252241Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.252281Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.252318Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.252325Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.252364Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.252371Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.252392Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.252411Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.252417Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.252437Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.252471Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.252524Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.252571Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.252594Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.252600Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.252635Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.252666Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.252680Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.252694Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.252700Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.253117Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.253141Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.253145Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.253167Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.253183Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.253212Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.253228Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.253252Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.253283Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.253312Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.253328Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.253350Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.253388Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.253401Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.253405Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.253452Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.253478Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.253504Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.253549Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.253621Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.253651Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.253678Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.253694Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.253720Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.253730Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.253765Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.253772Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.253783Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.253810Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.253819Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.253841Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.253865Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.253876Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.253886Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.253906Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.253913Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.253926Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.253937Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.253946Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.253957Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.253969Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.253991Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.253997Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254022Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254039Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254044Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254054Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254063Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254079Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254081Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254094Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254124Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254128Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254159Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254169Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254229Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254247Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254298Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254310Z TRACE ThreadId(10) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254324Z TRACE ThreadId(10) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254366Z TRACE ThreadId(10) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254369Z TRACE ThreadId(10) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254313Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254397Z TRACE ThreadId(10) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254420Z TRACE ThreadId(10) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254423Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254439Z TRACE ThreadId(10) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254461Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254474Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254485Z TRACE ThreadId(10) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254515Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254571Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254544Z TRACE ThreadId(10) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254610Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254523Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254681Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254694Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254626Z TRACE ThreadId(10) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254718Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254724Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254726Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254753Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254767Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254800Z TRACE ThreadId(10) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254824Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254832Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254840Z TRACE ThreadId(10) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254857Z TRACE ThreadId(10) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254867Z TRACE ThreadId(10) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254877Z TRACE ThreadId(10) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254913Z TRACE ThreadId(10) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254846Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254920Z TRACE ThreadId(10) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254974Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.254997Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.255007Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.255018Z TRACE ThreadId(10) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.255046Z TRACE ThreadId(10) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.255069Z TRACE ThreadId(10) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.255081Z TRACE ThreadId(10) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.255210Z TRACE ThreadId(10) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.255225Z TRACE ThreadId(26) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.255239Z TRACE ThreadId(26) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.255286Z TRACE ThreadId(26) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.255307Z TRACE ThreadId(26) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.255329Z TRACE ThreadId(26) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.255333Z TRACE ThreadId(26) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.255345Z TRACE ThreadId(26) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.255368Z TRACE ThreadId(26) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.255373Z TRACE ThreadId(26) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.255384Z TRACE ThreadId(26) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.255388Z TRACE ThreadId(26) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.255398Z TRACE ThreadId(26) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.255402Z TRACE ThreadId(26) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.255465Z TRACE ThreadId(26) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.256973Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257031Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257046Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257062Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257087Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257095Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257134Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257207Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257240Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257244Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257259Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257275Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257288Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257294Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257298Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257307Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257320Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257345Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257348Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257351Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257356Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257362Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257367Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257372Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257376Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257387Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257406Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257425Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257430Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257436Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257404Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257465Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257446Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257477Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257483Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257492Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257500Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257499Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257504Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257528Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257533Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257537Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257539Z TRACE ThreadId(12) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257559Z TRACE ThreadId(12) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257579Z TRACE ThreadId(12) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257513Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257617Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257636Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257538Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257646Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257675Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257681Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257693Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257701Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257708Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257713Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257720Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257722Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257728Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257542Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257684Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257769Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257776Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257790Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257796Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257819Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257735Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257846Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257857Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257864Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257866Z TRACE ThreadId(25) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257891Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257909Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257919Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257828Z TRACE ThreadId(24) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257973Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257992Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257653Z TRACE ThreadId(12) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258003Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.257939Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258017Z TRACE ThreadId(12) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258100Z TRACE ThreadId(12) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258037Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258160Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258173Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258130Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258200Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258205Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258223Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258235Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258244Z TRACE ThreadId(12) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258252Z TRACE ThreadId(12) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258284Z TRACE ThreadId(12) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258255Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258322Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258336Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258350Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258353Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258355Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258364Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258356Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258376Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258367Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258394Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258398Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258402Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258407Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258415Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258417Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258418Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258433Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258434Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258447Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258401Z TRACE ThreadId(12) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258472Z TRACE ThreadId(12) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258492Z TRACE ThreadId(12) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258455Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258559Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258566Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258764Z TRACE ThreadId(12) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258782Z TRACE ThreadId(12) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258787Z TRACE ThreadId(12) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258789Z TRACE ThreadId(12) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258799Z TRACE ThreadId(12) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258843Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258876Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258887Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258890Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258910Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258917Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258994Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.258926Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259037Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259045Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259060Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259072Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259077Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259086Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259096Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259117Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259120Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259125Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259136Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259140Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259150Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259160Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259164Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259183Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259185Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259198Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259200Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259209Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259225Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259227Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259230Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259233Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259242Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259242Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259252Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259265Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259297Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259300Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259311Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259324Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259328Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259329Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259341Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259344Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259347Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259361Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259365Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259378Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259411Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259413Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259429Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259435Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259445Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259447Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259489Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259498Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259503Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259509Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259522Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259531Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259536Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259544Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259584Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259592Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259619Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259635Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259645Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259648Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259664Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259666Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259675Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259700Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259713Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259721Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259731Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259742Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259752Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259755Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259761Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259771Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259774Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259786Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259789Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259794Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259804Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259815Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259805Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259836Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259844Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259854Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259860Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259872Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259878Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259884Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259879Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259899Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259922Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259933Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259932Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259942Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259959Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259963Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259965Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259975Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260001Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.259952Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260029Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260033Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260045Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260055Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260055Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260072Z TRACE ThreadId(17) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260074Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260078Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260130Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260145Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260164Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260167Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260170Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260172Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260186Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260197Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260204Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260211Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260232Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260243Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260245Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260291Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260294Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260297Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260299Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260311Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260323Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260336Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260344Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260348Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260354Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260372Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260431Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260435Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260437Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260440Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260452Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260497Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260500Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260503Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260506Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260517Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260528Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260540Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260549Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260551Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260563Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260576Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260578Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260621Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260624Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260627Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260629Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260643Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260669Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260673Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260676Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260678Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260690Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260702Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260714Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260726Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260728Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260773Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260776Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260779Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260781Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260799Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260801Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260817Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260820Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260823Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260825Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260836Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260847Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.260859Z TRACE ThreadId(16) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.261395Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.261460Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.261511Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.261526Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.261538Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.261540Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.261544Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.261548Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.261566Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.261577Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.261590Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.261595Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.261612Z TRACE ThreadId(18) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.261631Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.261639Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.261658Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.261699Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265321Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265336Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265346Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265349Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265354Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265388Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265415Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265418Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265425Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265428Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265435Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265443Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265448Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265455Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265458Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265469Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265473Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265489Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265495Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265497Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265509Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265524Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265526Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265547Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265601Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265606Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265611Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265634Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265658Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265661Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265685Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265700Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265702Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265703Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265723Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265753Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265764Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265766Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265783Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265798Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265799Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265828Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265847Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265852Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265855Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265858Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265862Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265852Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265872Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265875Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265886Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265889Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265890Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265933Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265947Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265949Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265950Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265960Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.265973Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266011Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266021Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266023Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266023Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266036Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266039Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266051Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266057Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266061Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266067Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266067Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266079Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266088Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266093Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266095Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266112Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266116Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266129Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266132Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266139Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266159Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266161Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266166Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266170Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266173Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266182Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266184Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266187Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266183Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266192Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266199Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266223Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266224Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266233Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266236Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266242Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266250Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266270Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266282Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266289Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266294Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266302Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266313Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266315Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266318Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266326Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266319Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266340Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266346Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266335Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266360Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266369Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266372Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266383Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266388Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266392Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266398Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266400Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266408Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266403Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266419Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266426Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266428Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266429Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266438Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266454Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266441Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266464Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266472Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266479Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266481Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266486Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266481Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266508Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266513Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266525Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266525Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266532Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266543Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266553Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266572Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266585Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266600Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266603Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266607Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266612Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266617Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266627Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266633Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266635Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266674Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266677Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266677Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266694Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266695Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266703Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266714Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266733Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266757Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266760Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266782Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266782Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266797Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266818Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266822Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266827Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266831Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266831Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266843Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266845Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266849Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266868Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266888Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266895Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266898Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266906Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266917Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266921Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266931Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266950Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266969Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266979Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266989Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266996Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.266990Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267013Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267017Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267021Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267046Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267062Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267075Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267078Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267082Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267079Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267091Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267098Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267099Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267120Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267130Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267135Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267135Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267156Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267165Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267170Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267131Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267190Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267182Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267200Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267214Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267220Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267228Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267229Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267232Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267242Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267238Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267250Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267264Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267264Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267278Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267293Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267304Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267305Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267314Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267329Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267334Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267341Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267279Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267361Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267379Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267407Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267419Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267421Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267429Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267431Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267433Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267362Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267445Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267439Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267454Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267462Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267473Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267500Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267506Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267522Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267526Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267529Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267532Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267532Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267533Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267561Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267583Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267590Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267599Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267606Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267610Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267612Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267616Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267623Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267634Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267697Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267699Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267712Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267717Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267721Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267721Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267642Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267730Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267748Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267752Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267756Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267764Z TRACE ThreadId(20) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267768Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267775Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267781Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267784Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267813Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267814Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267819Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267819Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267833Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267840Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267844Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267863Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267867Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267886Z TRACE ThreadId(15) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267921Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267959Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267991Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267995Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.267997Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268009Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268018Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268046Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268050Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268076Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268092Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268104Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268139Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268146Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268167Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268170Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268185Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268187Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268194Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268205Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268252Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268259Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268289Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268311Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268321Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268355Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268359Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268362Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268366Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268384Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268395Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268403Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268420Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268431Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268475Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268485Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268492Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268507Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268510Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268514Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268520Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268522Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268528Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268530Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268534Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268558Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268563Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268573Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268577Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268583Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268587Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268591Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268595Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268598Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268602Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268604Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268609Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268615Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268618Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268623Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268742Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268747Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268758Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268792Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268833Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268853Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.268885Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-15T21:29:26.281297Z  INFO ThreadId(01) Compiled 55 sqf files
+2025-12-15T21:29:26.281435Z TRACE ThreadId(01) phase: pre_build (SQF) (done)
+2025-12-15T21:29:26.281442Z TRACE ThreadId(01) phase: pre_build (Stringtables) (start)
+2025-12-15T21:29:26.286021Z  INFO ThreadId(01) Checked 0 stringtables
+2025-12-15T21:29:26.286050Z TRACE ThreadId(01) phase: pre_build (Stringtables) (done)
+2025-12-15T21:29:26.286085Z TRACE ThreadId(01) phase: build (start)
+2025-12-15T21:29:26.292339Z DEBUG ThreadId(01) creating "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\addons"
+2025-12-15T21:29:26.292502Z DEBUG ThreadId(01) building "addons/main" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\addons\\root_batcom_main.pbo"
+2025-12-15T21:29:26.296333Z TRACE ThreadId(01) adding file "script_component.hpp"
+2025-12-15T21:29:26.296588Z TRACE ThreadId(01) adding file "XEH_preInit.sqfc"
+2025-12-15T21:29:26.296655Z TRACE ThreadId(01) adding file "XEH_preInit.sqf"
+2025-12-15T21:29:26.296755Z TRACE ThreadId(01) adding file "XEH_PREP.hpp"
+2025-12-15T21:29:26.296856Z TRACE ThreadId(01) adding file "script_macros.hpp"
+2025-12-15T21:29:26.296959Z TRACE ThreadId(01) adding file "XEH_postInit.sqf"
+2025-12-15T21:29:26.297010Z TRACE ThreadId(01) adding file "config.bin"
+2025-12-15T21:29:26.297131Z TRACE ThreadId(01) adding file "script_mod.hpp"
+2025-12-15T21:29:26.297183Z TRACE ThreadId(01) adding file "XEH_postInit.sqfc"
+2025-12-15T21:29:26.297243Z TRACE ThreadId(01) adding file "scripts\\commandProcessLoop.sqf"
+2025-12-15T21:29:26.297294Z TRACE ThreadId(01) adding file "scripts\\worldScanLoop.sqfc"
+2025-12-15T21:29:26.297353Z TRACE ThreadId(01) adding file "scripts\\worldScanLoop.sqf"
+2025-12-15T21:29:26.297408Z TRACE ThreadId(01) adding file "scripts\\commandProcessLoop.sqfc"
+2025-12-15T21:29:26.297416Z TRACE ThreadId(01) adding file "functions\\fn_getSpawnAltitude.sqfc"
+2025-12-15T21:29:26.297474Z TRACE ThreadId(01) adding file "functions\\fn_pythiaCall.sqf"
+2025-12-15T21:29:26.297526Z TRACE ThreadId(01) adding file "functions\\fn_hasFlashlight.sqfc"
+2025-12-15T21:29:26.297534Z TRACE ThreadId(01) adding file "functions\\fn_resolveGroup.sqfc"
+2025-12-15T21:29:26.297541Z TRACE ThreadId(01) adding file "functions\\fn_deployCommander.sqfc"
+2025-12-15T21:29:26.297598Z TRACE ThreadId(01) adding file "functions\\fn_applyEscortCommand.sqf"
+2025-12-15T21:29:26.297697Z TRACE ThreadId(01) adding file "functions\\fn_aoProgress.sqf"
+2025-12-15T21:29:26.297872Z TRACE ThreadId(01) adding file "functions\\fn_batcomDebug.sqf"
+2025-12-15T21:29:26.297948Z TRACE ThreadId(01) adding file "functions\\fn_getResourcePoolTemplate.sqfc"
+2025-12-15T21:29:26.297959Z TRACE ThreadId(01) adding file "functions\\fn_getDefaultAssetClasses.sqfc"
+2025-12-15T21:29:26.298023Z TRACE ThreadId(01) adding file "functions\\fn_killCommander.sqf"
+2025-12-15T21:29:26.298076Z TRACE ThreadId(01) adding file "functions\\fn_batcomResourcePoolUI.sqfc"
+2025-12-15T21:29:26.298136Z TRACE ThreadId(01) adding file "functions\\fn_taskComplete.sqf"
+2025-12-15T21:29:26.298200Z TRACE ThreadId(01) adding file "functions\\fn_applyTransportCommand.sqfc"
+2025-12-15T21:29:26.298209Z TRACE ThreadId(01) adding file "functions\\fn_applySeekCommand.sqfc"
+2025-12-15T21:29:26.298216Z TRACE ThreadId(01) adding file "functions\\fn_taskComplete.sqfc"
+2025-12-15T21:29:26.298225Z TRACE ThreadId(01) adding file "functions\\fn_applyDeployAssetCommand.sqfc"
+2025-12-15T21:29:26.298232Z TRACE ThreadId(01) adding file "functions\\fn_batcomSetAOBoundary.sqfc"
+2025-12-15T21:29:26.298289Z TRACE ThreadId(01) adding file "functions\\fn_deployCommander.sqf"
+2025-12-15T21:29:26.298337Z TRACE ThreadId(01) adding file "functions\\fn_worldScan.sqfc"
+2025-12-15T21:29:26.298393Z TRACE ThreadId(01) adding file "functions\\fn_applyDefendCommand.sqf"
+2025-12-15T21:29:26.298501Z TRACE ThreadId(01) adding file "functions\\fn_hashmapToArray.sqf"
+2025-12-15T21:29:26.298617Z TRACE ThreadId(01) adding file "functions\\fn_trackAOObjectives.sqf"
+2025-12-15T21:29:26.298669Z TRACE ThreadId(01) adding file "functions\\fn_isEnabled.sqfc"
+2025-12-15T21:29:26.298677Z TRACE ThreadId(01) adding file "functions\\fn_testGeminiConnection.sqfc"
+2025-12-15T21:29:26.298685Z TRACE ThreadId(01) adding file "functions\\fn_testInitConfig.sqfc"
+2025-12-15T21:29:26.298692Z TRACE ThreadId(01) adding file "functions\\fn_scanObjectives.sqfc"
+2025-12-15T21:29:26.298698Z TRACE ThreadId(01) adding file "functions\\fn_testPythia.sqfc"
+2025-12-15T21:29:26.298738Z TRACE ThreadId(01) adding file "functions\\fn_scanPlayers.sqfc"
+2025-12-15T21:29:26.298746Z TRACE ThreadId(01) adding file "functions\\fn_batcomInit.sqfc"
+2025-12-15T21:29:26.298813Z TRACE ThreadId(01) adding file "functions\\fn_applyCommands.sqf"
+2025-12-15T21:29:26.298863Z TRACE ThreadId(01) adding file "functions\\fn_trackAOObjectives.sqfc"
+2025-12-15T21:29:26.298920Z TRACE ThreadId(01) adding file "functions\\fn_batcomAOLifecycle.sqf"
+2025-12-15T21:29:26.298971Z TRACE ThreadId(01) adding file "functions\\fn_hashmapToArray.sqfc"
+2025-12-15T21:29:26.299028Z TRACE ThreadId(01) adding file "functions\\fn_applySpawnCommand.sqf"
+2025-12-15T21:29:26.299134Z TRACE ThreadId(01) adding file "functions\\fn_initCasualtyTracking.sqf"
+2025-12-15T21:29:26.299247Z TRACE ThreadId(01) adding file "functions\\fn_getResourcePoolTemplate.sqf"
+2025-12-15T21:29:26.299349Z TRACE ThreadId(01) adding file "functions\\fn_trackObjectiveContributions.sqf"
+2025-12-15T21:29:26.299456Z TRACE ThreadId(01) adding file "functions\\fn_scanPlayers.sqf"
+2025-12-15T21:29:26.299506Z TRACE ThreadId(01) adding file "functions\\fn_trackObjectiveContributions.sqfc"
+2025-12-15T21:29:26.299606Z TRACE ThreadId(01) adding file "functions\\fn_getDefaultAssetClasses.sqf"
+2025-12-15T21:29:26.299770Z TRACE ThreadId(01) adding file "functions\\fn_applyTransportCommand.sqf"
+2025-12-15T21:29:26.299828Z TRACE ThreadId(01) adding file "functions\\fn_pythiaCall.sqfc"
+2025-12-15T21:29:26.299837Z TRACE ThreadId(01) adding file "functions\\fn_applyMoveCommand.sqfc"
+2025-12-15T21:29:26.299854Z TRACE ThreadId(01) adding file "functions\\fn_batcomAutoInit.sqfc"
+2025-12-15T21:29:26.299861Z TRACE ThreadId(01) adding file "functions\\fn_getTokenStats.sqfc"
+2025-12-15T21:29:26.299966Z TRACE ThreadId(01) adding file "functions\\fn_applyPatrolCommand.sqf"
+2025-12-15T21:29:26.300071Z TRACE ThreadId(01) adding file "functions\\fn_getTokenStats.sqf"
+2025-12-15T21:29:26.300171Z TRACE ThreadId(01) adding file "functions\\fn_logMessage.sqf"
+2025-12-15T21:29:26.300273Z TRACE ThreadId(01) adding file "functions\\fn_init.sqf"
+2025-12-15T21:29:26.300324Z TRACE ThreadId(01) adding file "functions\\fn_arrayToHashmap.sqfc"
+2025-12-15T21:29:26.300381Z TRACE ThreadId(01) adding file "functions\\fn_scanGroups.sqf"
+2025-12-15T21:29:26.300482Z TRACE ThreadId(01) adding file "functions\\fn_resolveGroup.sqf"
+2025-12-15T21:29:26.300580Z TRACE ThreadId(01) adding file "functions\\fn_testInitConfig.sqf"
+2025-12-15T21:29:26.300647Z TRACE ThreadId(01) adding file "functions\\fn_applyPatrolCommand.sqfc"
+2025-12-15T21:29:26.300655Z TRACE ThreadId(01) adding file "functions\\fn_getGroupId.sqfc"
+2025-12-15T21:29:26.300662Z TRACE ThreadId(01) adding file "functions\\fn_setMissionIntent.sqfc"
+2025-12-15T21:29:26.300718Z TRACE ThreadId(01) adding file "functions\\fn_batcomAutoInit.sqf"
+2025-12-15T21:29:26.300823Z TRACE ThreadId(01) adding file "functions\\fn_getSpawnAltitude.sqf"
+2025-12-15T21:29:26.300922Z TRACE ThreadId(01) adding file "functions\\fn_hasFlashlight.sqf"
+2025-12-15T21:29:26.300974Z TRACE ThreadId(01) adding file "functions\\fn_debugLog.sqfc"
+2025-12-15T21:29:26.301037Z TRACE ThreadId(01) adding file "functions\\fn_shutdown.sqf"
+2025-12-15T21:29:26.301089Z TRACE ThreadId(01) adding file "functions\\fn_scanGroups.sqfc"
+2025-12-15T21:29:26.301146Z TRACE ThreadId(01) adding file "functions\\fn_testGeminiConnection.sqf"
+2025-12-15T21:29:26.301250Z TRACE ThreadId(01) adding file "functions\\fn_batcomResourcePoolUI.sqf"
+2025-12-15T21:29:26.301302Z TRACE ThreadId(01) adding file "functions\\fn_applySpawnCommand.sqfc"
+2025-12-15T21:29:26.301376Z TRACE ThreadId(01) adding file "functions\\fn_applyFireSupportCommand.sqf"
+2025-12-15T21:29:26.301430Z TRACE ThreadId(01) adding file "functions\\fn_applyDefendCommand.sqfc"
+2025-12-15T21:29:26.301439Z TRACE ThreadId(01) adding file "functions\\fn_initCasualtyTracking.sqfc"
+2025-12-15T21:29:26.301497Z TRACE ThreadId(01) adding file "functions\\fn_getGroupType.sqf"
+2025-12-15T21:29:26.301590Z TRACE ThreadId(01) adding file "functions\\fn_applyEscortCommand.sqfc"
+2025-12-15T21:29:26.301601Z TRACE ThreadId(01) adding file "functions\\fn_debugInit.sqfc"
+2025-12-15T21:29:26.301607Z TRACE ThreadId(01) adding file "functions\\fn_logMessage.sqfc"
+2025-12-15T21:29:26.301614Z TRACE ThreadId(01) adding file "functions\\fn_init.sqfc"
+2025-12-15T21:29:26.301621Z TRACE ThreadId(01) adding file "functions\\fn_commanderStartAO.sqfc"
+2025-12-15T21:29:26.301627Z TRACE ThreadId(01) adding file "functions\\fn_batcomAOLifecycle.sqfc"
+2025-12-15T21:29:26.301688Z TRACE ThreadId(01) adding file "functions\\fn_debugInit.sqf"
+2025-12-15T21:29:26.301791Z TRACE ThreadId(01) adding file "functions\\fn_commanderEndAO.sqf"
+2025-12-15T21:29:26.301849Z TRACE ThreadId(01) adding file "functions\\fn_applyFireSupportCommand.sqfc"
+2025-12-15T21:29:26.301909Z TRACE ThreadId(01) adding file "functions\\fn_commanderStartAO.sqf"
+2025-12-15T21:29:26.302011Z TRACE ThreadId(01) adding file "functions\\fn_debugLog.sqf"
+2025-12-15T21:29:26.302061Z TRACE ThreadId(01) adding file "functions\\fn_commanderEndAO.sqfc"
+2025-12-15T21:29:26.302129Z TRACE ThreadId(01) adding file "functions\\fn_getGroupId.sqf"
+2025-12-15T21:29:26.302226Z TRACE ThreadId(01) adding file "functions\\fn_batcomSetAOBoundary.sqf"
+2025-12-15T21:29:26.302275Z TRACE ThreadId(01) adding file "functions\\fn_killCommander.sqfc"
+2025-12-15T21:29:26.302282Z TRACE ThreadId(01) adding file "functions\\fn_addObjective.sqfc"
+2025-12-15T21:29:26.302337Z TRACE ThreadId(01) adding file "functions\\fn_scanObjectives.sqf"
+2025-12-15T21:29:26.302385Z TRACE ThreadId(01) adding file "functions\\fn_shutdown.sqfc"
+2025-12-15T21:29:26.302440Z TRACE ThreadId(01) adding file "functions\\fn_testPythia.sqf"
+2025-12-15T21:29:26.302535Z TRACE ThreadId(01) adding file "functions\\fn_applyMoveCommand.sqf"
+2025-12-15T21:29:26.302630Z TRACE ThreadId(01) adding file "functions\\fn_worldScan.sqf"
+2025-12-15T21:29:26.302677Z TRACE ThreadId(01) adding file "functions\\fn_getGroupType.sqfc"
+2025-12-15T21:29:26.302733Z TRACE ThreadId(01) adding file "functions\\fn_setMissionIntent.sqf"
+2025-12-15T21:29:26.302782Z TRACE ThreadId(01) adding file "functions\\fn_batcomDebug.sqfc"
+2025-12-15T21:29:26.302839Z TRACE ThreadId(01) adding file "functions\\fn_applySeekCommand.sqf"
+2025-12-15T21:29:26.302936Z TRACE ThreadId(01) adding file "functions\\fn_arrayToHashmap.sqf"
+2025-12-15T21:29:26.303035Z TRACE ThreadId(01) adding file "functions\\fn_addObjective.sqf"
+2025-12-15T21:29:26.303135Z TRACE ThreadId(01) adding file "functions\\fn_applyDeployAssetCommand.sqf"
+2025-12-15T21:29:26.303186Z TRACE ThreadId(01) adding file "functions\\fn_applyCommands.sqfc"
+2025-12-15T21:29:26.303194Z TRACE ThreadId(01) adding file "functions\\fn_aoProgress.sqfc"
+2025-12-15T21:29:26.303277Z TRACE ThreadId(01) adding file "functions\\fn_batcomInit.sqf"
+2025-12-15T21:29:26.303396Z TRACE ThreadId(01) adding file "functions\\fn_isEnabled.sqf"
+2025-12-15T21:29:26.305414Z  INFO ThreadId(01) Built 1 PBOs
+2025-12-15T21:29:26.305434Z TRACE ThreadId(01) phase: build (done)
+2025-12-15T21:29:26.305438Z TRACE ThreadId(01) phase: post_build (BOM Check) (start)
+2025-12-15T21:29:26.305441Z TRACE ThreadId(01) phase: post_build (BOM Check) (done)
+2025-12-15T21:29:26.305443Z TRACE ThreadId(01) phase: post_build (Final New Line Check) (start)
+2025-12-15T21:29:26.305445Z TRACE ThreadId(01) phase: post_build (Final New Line Check) (done)
+2025-12-15T21:29:26.305447Z TRACE ThreadId(01) phase: post_build (Hooks) (start)
+2025-12-15T21:29:26.305449Z TRACE ThreadId(01) phase: post_build (Hooks) (done)
+2025-12-15T21:29:26.305452Z TRACE ThreadId(01) phase: post_build (Binarize) (start)
+2025-12-15T21:29:26.305454Z TRACE ThreadId(01) phase: post_build (Binarize) (done)
+2025-12-15T21:29:26.305456Z TRACE ThreadId(01) phase: post_build (tex_headers) (start)
+2025-12-15T21:29:26.305458Z TRACE ThreadId(01) phase: post_build (tex_headers) (done)
+2025-12-15T21:29:26.305460Z TRACE ThreadId(01) phase: post_build (Files) (start)
+2025-12-15T21:29:28.943948Z DEBUG ThreadId(01) copying "/LICENSE" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\LICENSE"
+2025-12-15T21:29:28.944683Z DEBUG ThreadId(01) copying "/README.md" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\README.md"
+2025-12-15T21:29:28.945207Z DEBUG ThreadId(01) copying "/mod.cpp" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\mod.cpp"
+2025-12-15T21:29:28.945670Z DEBUG ThreadId(01) copying "/batcom_logo.paa" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom_logo.paa"
+2025-12-15T21:29:28.946528Z DEBUG ThreadId(01) copying "/batcom/api.py" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/api.py"
+2025-12-15T21:29:28.947004Z DEBUG ThreadId(01) copying "/batcom/$PYTHIA$" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/$PYTHIA$"
+2025-12-15T21:29:28.947448Z DEBUG ThreadId(01) copying "/batcom/__init__.py" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/__init__.py"
+2025-12-15T21:29:28.947894Z DEBUG ThreadId(01) copying "/batcom/requirements.txt" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/requirements.txt"
+2025-12-15T21:29:28.948336Z DEBUG ThreadId(01) copying "/batcom/resource_templates.json" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/resource_templates.json"
+2025-12-15T21:29:28.948820Z DEBUG ThreadId(01) copying "/batcom/guardrails.json" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/guardrails.json"
+2025-12-15T21:29:28.949259Z DEBUG ThreadId(01) copying "/batcom/tracking/__init__.py" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/tracking/__init__.py"
+2025-12-15T21:29:28.949514Z DEBUG ThreadId(01) copying "/batcom/tracking/effectiveness.py" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/tracking/effectiveness.py"
+2025-12-15T21:29:28.949786Z DEBUG ThreadId(01) copying "/batcom/tracking/__pycache__/effectiveness.cpython-313.pyc" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/tracking/__pycache__/effectiveness.cpython-313.pyc"
+2025-12-15T21:29:28.950095Z DEBUG ThreadId(01) copying "/batcom/tracking/__pycache__/__init__.cpython-313.pyc" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/tracking/__pycache__/__init__.cpython-313.pyc"
+2025-12-15T21:29:28.950498Z DEBUG ThreadId(01) copying "/batcom/learning/ao_analyzer.py" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/learning/ao_analyzer.py"
+2025-12-15T21:29:28.950719Z DEBUG ThreadId(01) copying "/batcom/learning/__init__.py" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/learning/__init__.py"
+2025-12-15T21:29:28.951037Z DEBUG ThreadId(01) copying "/batcom/learning/__pycache__/__init__.cpython-313.pyc" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/learning/__pycache__/__init__.cpython-313.pyc"
+2025-12-15T21:29:28.951315Z DEBUG ThreadId(01) copying "/batcom/learning/__pycache__/ao_analyzer.cpython-313.pyc" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/learning/__pycache__/ao_analyzer.cpython-313.pyc"
+2025-12-15T21:29:28.951522Z DEBUG ThreadId(01) copying "/batcom/decision/planner.py" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/decision/planner.py"
+2025-12-15T21:29:28.951757Z DEBUG ThreadId(01) copying "/batcom/decision/priority.py" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/decision/priority.py"
+2025-12-15T21:29:28.952556Z DEBUG ThreadId(01) copying "/batcom/decision/__init__.py" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/decision/__init__.py"
+2025-12-15T21:29:28.953101Z DEBUG ThreadId(01) copying "/batcom/decision/tactics.py" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/decision/tactics.py"
+2025-12-15T21:29:28.953373Z DEBUG ThreadId(01) copying "/batcom/decision/evaluator.py" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/decision/evaluator.py"
+2025-12-15T21:29:28.953704Z DEBUG ThreadId(01) copying "/batcom/decision/assignment.py" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/decision/assignment.py"
+2025-12-15T21:29:28.954149Z DEBUG ThreadId(01) copying "/batcom/decision/__pycache__/assignment.cpython-313.pyc" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/decision/__pycache__/assignment.cpython-313.pyc"
+2025-12-15T21:29:28.954419Z DEBUG ThreadId(01) copying "/batcom/decision/__pycache__/__init__.cpython-313.pyc" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/decision/__pycache__/__init__.cpython-313.pyc"
+2025-12-15T21:29:28.954917Z DEBUG ThreadId(01) copying "/batcom/decision/__pycache__/evaluator.cpython-313.pyc" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/decision/__pycache__/evaluator.cpython-313.pyc"
+2025-12-15T21:29:28.955547Z DEBUG ThreadId(01) copying "/batcom/decision/__pycache__/tactics.cpython-313.pyc" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/decision/__pycache__/tactics.cpython-313.pyc"
+2025-12-15T21:29:28.956096Z DEBUG ThreadId(01) copying "/batcom/decision/__pycache__/planner.cpython-313.pyc" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/decision/__pycache__/planner.cpython-313.pyc"
+2025-12-15T21:29:28.956726Z DEBUG ThreadId(01) copying "/batcom/decision/__pycache__/priority.cpython-313.pyc" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/decision/__pycache__/priority.cpython-313.pyc"
+2025-12-15T21:29:28.957341Z DEBUG ThreadId(01) copying "/batcom/config/resource_loader.py" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/config/resource_loader.py"
+2025-12-15T21:29:28.957631Z DEBUG ThreadId(01) copying "/batcom/config/defaults.py" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/config/defaults.py"
+2025-12-15T21:29:28.957978Z DEBUG ThreadId(01) copying "/batcom/config/__init__.py" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/config/__init__.py"
+2025-12-15T21:29:28.958229Z DEBUG ThreadId(01) copying "/batcom/__pycache__/api.cpython-313.pyc" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/__pycache__/api.cpython-313.pyc"
+2025-12-15T21:29:28.958505Z DEBUG ThreadId(01) copying "/batcom/__pycache__/__init__.cpython-313.pyc" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/__pycache__/__init__.cpython-313.pyc"
+2025-12-15T21:29:28.958764Z DEBUG ThreadId(01) copying "/batcom/models/effectiveness.py" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/models/effectiveness.py"
+2025-12-15T21:29:28.959019Z DEBUG ThreadId(01) copying "/batcom/models/commands.py" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/models/commands.py"
+2025-12-15T21:29:28.959303Z DEBUG ThreadId(01) copying "/batcom/models/world.py" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/models/world.py"
+2025-12-15T21:29:28.959545Z DEBUG ThreadId(01) copying "/batcom/models/__init__.py" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/models/__init__.py"
+2025-12-15T21:29:28.959815Z DEBUG ThreadId(01) copying "/batcom/models/tasks.py" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/models/tasks.py"
+2025-12-15T21:29:28.960133Z DEBUG ThreadId(01) copying "/batcom/models/objectives.py" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/models/objectives.py"
+2025-12-15T21:29:28.960514Z DEBUG ThreadId(01) copying "/batcom/models/__pycache__/commands.cpython-313.pyc" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/models/__pycache__/commands.cpython-313.pyc"
+2025-12-15T21:29:28.960826Z DEBUG ThreadId(01) copying "/batcom/models/__pycache__/tasks.cpython-313.pyc" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/models/__pycache__/tasks.cpython-313.pyc"
+2025-12-15T21:29:28.961147Z DEBUG ThreadId(01) copying "/batcom/models/__pycache__/__init__.cpython-313.pyc" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/models/__pycache__/__init__.cpython-313.pyc"
+2025-12-15T21:29:28.961571Z DEBUG ThreadId(01) copying "/batcom/models/__pycache__/world.cpython-313.pyc" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/models/__pycache__/world.cpython-313.pyc"
+2025-12-15T21:29:28.961855Z DEBUG ThreadId(01) copying "/batcom/models/__pycache__/objectives.cpython-313.pyc" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/models/__pycache__/objectives.cpython-313.pyc"
+2025-12-15T21:29:28.962163Z DEBUG ThreadId(01) copying "/batcom/models/__pycache__/effectiveness.cpython-313.pyc" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/models/__pycache__/effectiveness.cpython-313.pyc"
+2025-12-15T21:29:28.962593Z DEBUG ThreadId(01) copying "/batcom/world/__init__.py" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/world/__init__.py"
+2025-12-15T21:29:28.962819Z DEBUG ThreadId(01) copying "/batcom/world/scanner.py" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/world/scanner.py"
+2025-12-15T21:29:28.963112Z DEBUG ThreadId(01) copying "/batcom/world/__pycache__/__init__.cpython-313.pyc" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/world/__pycache__/__init__.cpython-313.pyc"
+2025-12-15T21:29:28.963367Z DEBUG ThreadId(01) copying "/batcom/world/__pycache__/scanner.cpython-313.pyc" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/world/__pycache__/scanner.cpython-313.pyc"
+2025-12-15T21:29:28.963619Z DEBUG ThreadId(01) copying "/batcom/runtime/admin.py" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/runtime/admin.py"
+2025-12-15T21:29:28.963932Z DEBUG ThreadId(01) copying "/batcom/runtime/token_tracker.py" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/runtime/token_tracker.py"
+2025-12-15T21:29:28.964266Z DEBUG ThreadId(01) copying "/batcom/runtime/__init__.py" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/runtime/__init__.py"
+2025-12-15T21:29:28.964551Z DEBUG ThreadId(01) copying "/batcom/runtime/state.py" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/runtime/state.py"
+2025-12-15T21:29:28.964834Z DEBUG ThreadId(01) copying "/batcom/runtime/ao_result_logger.py" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/runtime/ao_result_logger.py"
+2025-12-15T21:29:28.965115Z DEBUG ThreadId(01) copying "/batcom/runtime/commander.py" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/runtime/commander.py"
+2025-12-15T21:29:28.965567Z DEBUG ThreadId(01) copying "/batcom/runtime/api_logger.py" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/runtime/api_logger.py"
+2025-12-15T21:29:28.965877Z DEBUG ThreadId(01) copying "/batcom/runtime/__pycache__/admin.cpython-313.pyc" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/runtime/__pycache__/admin.cpython-313.pyc"
+2025-12-15T21:29:28.966162Z DEBUG ThreadId(01) copying "/batcom/runtime/__pycache__/token_tracker.cpython-313.pyc" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/runtime/__pycache__/token_tracker.cpython-313.pyc"
+2025-12-15T21:29:28.966496Z DEBUG ThreadId(01) copying "/batcom/runtime/__pycache__/__init__.cpython-313.pyc" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/runtime/__pycache__/__init__.cpython-313.pyc"
+2025-12-15T21:29:28.966726Z DEBUG ThreadId(01) copying "/batcom/runtime/__pycache__/ao_result_logger.cpython-313.pyc" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/runtime/__pycache__/ao_result_logger.cpython-313.pyc"
+2025-12-15T21:29:28.967000Z DEBUG ThreadId(01) copying "/batcom/runtime/__pycache__/api_logger.cpython-313.pyc" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/runtime/__pycache__/api_logger.cpython-313.pyc"
+2025-12-15T21:29:28.967342Z DEBUG ThreadId(01) copying "/batcom/runtime/__pycache__/state.cpython-313.pyc" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/runtime/__pycache__/state.cpython-313.pyc"
+2025-12-15T21:29:28.967802Z DEBUG ThreadId(01) copying "/batcom/runtime/__pycache__/commander.cpython-313.pyc" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/runtime/__pycache__/commander.cpython-313.pyc"
+2025-12-15T21:29:28.968144Z DEBUG ThreadId(01) copying "/batcom/utils/logging_setup.py" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/utils/logging_setup.py"
+2025-12-15T21:29:28.968434Z DEBUG ThreadId(01) copying "/batcom/utils/__init__.py" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/utils/__init__.py"
+2025-12-15T21:29:28.968684Z DEBUG ThreadId(01) copying "/batcom/utils/__pycache__/logging_setup.cpython-313.pyc" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/utils/__pycache__/logging_setup.cpython-313.pyc"
+2025-12-15T21:29:28.968951Z DEBUG ThreadId(01) copying "/batcom/utils/__pycache__/__init__.cpython-313.pyc" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/utils/__pycache__/__init__.cpython-313.pyc"
+2025-12-15T21:29:28.969171Z DEBUG ThreadId(01) copying "/batcom/ai/provider_manager.py" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/ai/provider_manager.py"
+2025-12-15T21:29:28.969447Z DEBUG ThreadId(01) copying "/batcom/ai/sandbox.py" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/ai/sandbox.py"
+2025-12-15T21:29:28.969703Z DEBUG ThreadId(01) copying "/batcom/ai/__init__.py" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/ai/__init__.py"
+2025-12-15T21:29:28.969934Z DEBUG ThreadId(01) copying "/batcom/ai/gemini.py" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/ai/gemini.py"
+2025-12-15T21:29:28.970207Z DEBUG ThreadId(01) copying "/batcom/ai/order_parser.py" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/ai/order_parser.py"
+2025-12-15T21:29:28.970467Z DEBUG ThreadId(01) copying "/batcom/ai/providers.py" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/ai/providers.py"
+2025-12-15T21:29:28.970850Z DEBUG ThreadId(01) copying "/batcom/ai/__pycache__/gemini.cpython-313.pyc" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/ai/__pycache__/gemini.cpython-313.pyc"
+2025-12-15T21:29:28.971124Z DEBUG ThreadId(01) copying "/batcom/ai/__pycache__/sandbox.cpython-313.pyc" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/ai/__pycache__/sandbox.cpython-313.pyc"
+2025-12-15T21:29:28.971406Z DEBUG ThreadId(01) copying "/batcom/ai/__pycache__/__init__.cpython-313.pyc" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/ai/__pycache__/__init__.cpython-313.pyc"
+2025-12-15T21:29:28.971629Z DEBUG ThreadId(01) copying "/batcom/ai/__pycache__/providers.cpython-313.pyc" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/ai/__pycache__/providers.cpython-313.pyc"
+2025-12-15T21:29:28.971900Z DEBUG ThreadId(01) copying "/batcom/ai/__pycache__/order_parser.cpython-313.pyc" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/ai/__pycache__/order_parser.cpython-313.pyc"
+2025-12-15T21:29:28.972179Z DEBUG ThreadId(01) copying "/batcom/commands/queue.py" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/commands/queue.py"
+2025-12-15T21:29:28.972427Z DEBUG ThreadId(01) copying "/batcom/commands/serializer.py" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/commands/serializer.py"
+2025-12-15T21:29:28.972652Z DEBUG ThreadId(01) copying "/batcom/commands/generator.py" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/commands/generator.py"
+2025-12-15T21:29:28.972872Z DEBUG ThreadId(01) copying "/batcom/commands/__init__.py" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/commands/__init__.py"
+2025-12-15T21:29:28.973094Z DEBUG ThreadId(01) copying "/batcom/commands/__pycache__/queue.cpython-313.pyc" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/commands/__pycache__/queue.cpython-313.pyc"
+2025-12-15T21:29:28.973324Z DEBUG ThreadId(01) copying "/batcom/commands/__pycache__/__init__.cpython-313.pyc" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/commands/__pycache__/__init__.cpython-313.pyc"
+2025-12-15T21:29:28.973650Z DEBUG ThreadId(01) copying "/batcom/commands/__pycache__/generator.cpython-313.pyc" => "G:\\Games\\Arma 3\\# Git\\Root_BattlefieldCommander\\.hemttout\\build\\batcom/commands/__pycache__/generator.cpython-313.pyc"
+2025-12-15T21:29:28.974059Z  INFO ThreadId(01) Copied 87 files
+2025-12-15T21:29:28.974098Z TRACE ThreadId(01) phase: post_build (Files) (done)
+2025-12-15T21:29:28.974102Z TRACE ThreadId(01) phase: post_build (Meta) (start)
+2025-12-15T21:29:28.974104Z TRACE ThreadId(01) phase: post_build (Meta) (done)
+2025-12-15T21:29:28.974106Z TRACE ThreadId(01) phase: post_build (summary) (start)
+2025-12-15T21:29:28.976376Z TRACE ThreadId(01) phase: post_build (summary) (done)
+2025-12-15T21:29:28.976383Z TRACE ThreadId(01) phase: post_build (Rapifier) (start)
+2025-12-15T21:29:28.976386Z TRACE ThreadId(01) phase: post_build (Rapifier) (done)
+2025-12-15T21:29:28.976388Z TRACE ThreadId(01) phase: post_build (SQF) (start)
+2025-12-15T21:29:28.976392Z TRACE ThreadId(01) phase: post_build (SQF) (done)
+2025-12-15T21:29:28.976394Z TRACE ThreadId(01) phase: post_build (Stringtables) (start)
+2025-12-15T21:29:28.976396Z TRACE ThreadId(01) phase: post_build (Stringtables) (done)
+2025-12-15T21:29:28.979951Z TRACE ThreadId(01) writing ci annotations to .hemttout/ci_annotations.txt
+2025-12-15T21:29:28.980019Z TRACE ThreadId(01) wrote 0 ci annotations to .hemttout/ci_annotations.txt

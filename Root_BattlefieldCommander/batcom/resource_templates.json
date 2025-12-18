@@ -1,0 +1,637 @@
+{
+  "_comment_purpose": "Resource pool templates for LLM commander deployments. Similar to guardrails.json, this file defines asset pools available for tactical deployment.",
+  "_comment_usage": "Load desired template via mission scripts or admin commands. Templates define maximum counts per asset type.",
+  "_comment_defense_only": "Assets marked defense_only=true can ONLY be deployed during AO defense. Useful for restricting powerful assets to defensive scenarios.",
+
+  "templates": {
+    "minimal": {
+      "description": "Minimal reinforcements - small reserve pool for emergencies only",
+      "sides": {
+        "EAST": {
+          "infantry_squad": {
+            "max": 2,
+            "unit_classes": ["O_Soldier_TL_F", "O_Soldier_AR_F", "O_Soldier_GL_F", "O_Soldier_F", "O_Soldier_F"],
+            "description": "Standard infantry squad (5 men)",
+            "defense_only": false
+          },
+          "motorized_squad": {
+            "max": 1,
+            "unit_classes": ["O_MRAP_02_F"],
+            "description": "Light transport vehicle",
+            "defense_only": false
+          }
+        },
+        "RESISTANCE": {
+          "infantry_squad": {
+            "max": 2,
+            "unit_classes": ["I_Soldier_TL_F", "I_Soldier_AR_F", "I_Soldier_GL_F", "I_Soldier_F", "I_Soldier_F"],
+            "description": "Standard infantry squad (5 men)",
+            "defense_only": false
+          },
+          "motorized_squad": {
+            "max": 1,
+            "unit_classes": ["I_MRAP_03_F"],
+            "description": "Light transport vehicle",
+            "defense_only": false
+          }
+        }
+      }
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    "low": {
+      "description": "Low intensity - basic combined arms capability",
+      "sides": {
+        "EAST": {
+          "infantry_squad": {
+            "max": 4,
+            "unit_classes": ["O_Soldier_TL_F", "O_Soldier_AR_F", "O_Soldier_GL_F", "O_Soldier_F", "O_Soldier_F", "O_medic_F"],
+            "description": "Standard infantry squad with medic (6 men)",
+            "defense_only": false
+          },
+          "motorized_squad": {
+            "max": 2,
+            "unit_classes": ["O_MRAP_02_F"],
+            "description": "Light transport vehicle",
+            "defense_only": false
+          },
+          "mechanized_squad": {
+            "max": 2,
+            "unit_classes": ["O_APC_Wheeled_02_rcws_v2_F"],
+            "description": "Wheeled APC with HMG",
+            "defense_only": false
+          }
+        },
+        "RESISTANCE": {
+          "infantry_squad": {
+            "max": 4,
+            "unit_classes": ["I_Soldier_TL_F", "I_Soldier_AR_F", "I_Soldier_GL_F", "I_Soldier_F", "I_Soldier_F", "I_medic_F"],
+            "description": "Standard infantry squad with medic (6 men)",
+            "defense_only": false
+          },
+          "motorized_squad": {
+            "max": 2,
+            "unit_classes": ["I_MRAP_03_F"],
+            "description": "Light transport vehicle",
+            "defense_only": false
+          },
+          "mechanized_squad": {
+            "max": 1,
+            "unit_classes": ["I_APC_Wheeled_03_cannon_F"],
+            "description": "Wheeled APC with cannon",
+            "defense_only": false
+          }
+        }
+      }
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    "medium": {
+      "description": "Medium intensity - full combined arms with air support",
+      "sides": {
+        "EAST": {
+          "infantry_squad": {
+            "max": 6,
+            "unit_classes": ["O_Soldier_TL_F", "O_Soldier_AR_F", "O_Soldier_GL_F", "O_Soldier_LAT_F", "O_Soldier_F", "O_Soldier_F", "O_medic_F"],
+            "description": "Infantry squad with AT and medic (7 men)",
+            "defense_only": false
+          },
+          "motorized_squad": {
+            "max": 3,
+            "unit_classes": ["O_MRAP_02_hmg_F"],
+            "description": "Armed transport with HMG",
+            "defense_only": false
+          },
+          "mechanized_squad": {
+            "max": 3,
+            "unit_classes": ["O_APC_Wheeled_02_rcws_v2_F"],
+            "description": "Wheeled APC with HMG",
+            "defense_only": false
+          },
+          "armor_squad": {
+            "max": 3,
+            "unit_classes": ["O_APC_Tracked_02_cannon_F"],
+            "description": "Tracked IFV with autocannon",
+            "defense_only": false
+          },
+          "attack_helicopter": {
+            "max": 2,
+            "unit_classes": ["O_Heli_Attack_02_dynamicLoadout_F"],
+            "description": "Attack helicopter with weapons",
+            "defense_only": false
+          }
+        },
+        "RESISTANCE": {
+          "infantry_squad": {
+            "max": 6,
+            "unit_classes": ["I_Soldier_TL_F", "I_Soldier_AR_F", "I_Soldier_GL_F", "I_Soldier_LAT_F", "I_Soldier_F", "I_Soldier_F", "I_medic_F"],
+            "description": "Infantry squad with AT and medic (7 men)",
+            "defense_only": false
+          },
+          "motorized_squad": {
+            "max": 3,
+            "unit_classes": ["I_MRAP_03_hmg_F"],
+            "description": "Armed transport with HMG",
+            "defense_only": false
+          },
+          "mechanized_squad": {
+            "max": 3,
+            "unit_classes": ["I_APC_Wheeled_03_cannon_F"],
+            "description": "Wheeled APC with cannon",
+            "defense_only": false
+          },
+          "armor_squad": {
+            "max": 3,
+            "unit_classes": ["I_APC_tracked_03_cannon_F"],
+            "description": "Tracked IFV with autocannon",
+            "defense_only": false
+          },
+          "attack_helicopter": {
+            "max": 2,
+            "unit_classes": ["I_Heli_light_03_dynamicLoadout_F"],
+            "description": "Armed light helicopter",
+            "defense_only": false
+          },
+          "transport_helicopter": {
+            "max": 1,
+            "unit_classes": ["I_Heli_Transport_02_F"],
+            "description": "Medium transport helicopter",
+            "defense_only": false
+          }
+        }
+      }
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    "high": {
+      "description": "High intensity - heavy armor and aviation support",
+      "sides": {
+        "EAST": {
+          "infantry_squad": {
+            "max": 8,
+            "unit_classes": ["O_Soldier_TL_F", "O_Soldier_AR_F", "O_Soldier_GL_F", "O_Soldier_LAT_F", "O_soldier_M_F", "O_Soldier_F", "O_Soldier_F", "O_medic_F"],
+            "description": "Full infantry squad with AT, marksman, medic (8 men)",
+            "defense_only": false
+          },
+          "motorized_squad": {
+            "max": 4,
+            "unit_classes": ["O_MRAP_02_hmg_F"],
+            "description": "Armed transport with HMG",
+            "defense_only": false
+          },
+          "mechanized_squad": {
+            "max": 3,
+            "unit_classes": ["O_APC_Wheeled_02_rcws_v2_F"],
+            "description": "Wheeled APC with HMG",
+            "defense_only": false
+          },
+          "armor_squad": {
+            "max": 2,
+            "unit_classes": ["O_APC_Tracked_02_cannon_F"],
+            "description": "Tracked IFV with autocannon",
+            "defense_only": false
+          },
+          "heavy_armor": {
+            "max": 2,
+            "unit_classes": ["O_MBT_02_cannon_F"],
+            "description": "Main battle tank",
+            "defense_only": true
+          },
+          "attack_helicopter": {
+            "max": 2,
+            "unit_classes": ["O_Heli_Attack_02_dynamicLoadout_F"],
+            "description": "Attack helicopter with weapons",
+            "defense_only": false
+          },
+          "transport_helicopter": {
+            "max": 2,
+            "unit_classes": ["O_Heli_Light_02_dynamicLoadout_F"],
+            "description": "Light utility helicopter",
+            "defense_only": false
+          }
+        },
+        "RESISTANCE": {
+          "infantry_squad": {
+            "max": 8,
+            "unit_classes": ["I_Soldier_TL_F", "I_Soldier_AR_F", "I_Soldier_GL_F", "I_Soldier_LAT_F", "I_soldier_M_F", "I_Soldier_F", "I_Soldier_F", "I_medic_F"],
+            "description": "Full infantry squad with AT, marksman, medic (8 men)",
+            "defense_only": false
+          },
+          "motorized_squad": {
+            "max": 4,
+            "unit_classes": ["I_MRAP_03_hmg_F"],
+            "description": "Armed transport with HMG",
+            "defense_only": false
+          },
+          "mechanized_squad": {
+            "max": 3,
+            "unit_classes": ["I_APC_Wheeled_03_cannon_F"],
+            "description": "Wheeled APC with cannon",
+            "defense_only": false
+          },
+          "armor_squad": {
+            "max": 2,
+            "unit_classes": ["I_APC_tracked_03_cannon_F"],
+            "description": "Tracked IFV with autocannon",
+            "defense_only": false
+          },
+          "heavy_armor": {
+            "max": 1,
+            "unit_classes": ["I_MBT_03_cannon_F"],
+            "description": "Main battle tank",
+            "defense_only": true
+          },
+          "attack_helicopter": {
+            "max": 2,
+            "unit_classes": ["I_Heli_light_03_dynamicLoadout_F"],
+            "description": "Armed light helicopter",
+            "defense_only": false
+          },
+          "transport_helicopter": {
+            "max": 2,
+            "unit_classes": ["I_Heli_Transport_02_F"],
+            "description": "Medium transport helicopter",
+            "defense_only": false
+          }
+        }
+      }
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    "ultra_high": {
+      "description": "Ultra high intensity - maximum combined arms force with strategic assets",
+      "sides": {
+        "EAST": {
+          "infantry_squad": {
+            "max": 12,
+            "unit_classes": ["O_Soldier_TL_F", "O_Soldier_AR_F", "O_Soldier_GL_F", "O_Soldier_LAT_F", "O_soldier_M_F", "O_Soldier_F", "O_Soldier_F", "O_medic_F"],
+            "description": "Full infantry squad with AT, marksman, medic (8 men)",
+            "defense_only": false
+          },
+          "motorized_squad": {
+            "max": 6,
+            "unit_classes": ["O_MRAP_02_hmg_F"],
+            "description": "Armed transport with HMG",
+            "defense_only": false
+          },
+          "mechanized_squad": {
+            "max": 4,
+            "unit_classes": ["O_APC_Wheeled_02_rcws_v2_F"],
+            "description": "Wheeled APC with HMG",
+            "defense_only": false
+          },
+          "armor_squad": {
+            "max": 4,
+            "unit_classes": ["O_APC_Tracked_02_cannon_F"],
+            "description": "Tracked IFV with autocannon",
+            "defense_only": false
+          },
+          "heavy_armor": {
+            "max": 4,
+            "unit_classes": ["O_MBT_02_cannon_F"],
+            "description": "Main battle tank",
+            "defense_only": true
+          },
+          "attack_helicopter": {
+            "max": 3,
+            "unit_classes": ["O_Heli_Attack_02_dynamicLoadout_F"],
+            "description": "Attack helicopter with weapons",
+            "defense_only": false
+          },
+          "transport_helicopter": {
+            "max": 3,
+            "unit_classes": ["O_Heli_Light_02_dynamicLoadout_F"],
+            "description": "Light utility helicopter",
+            "defense_only": false
+          },
+          "aa_tigris": {
+            "max": 2,
+            "unit_classes": ["O_APC_Tracked_02_AA_F"],
+            "description": "Self-propelled AA system",
+            "defense_only": true
+          },
+          "drone": {
+            "max": 4,
+            "unit_classes": ["O_UAV_02_dynamicLoadout_F"],
+            "description": "GBU Drone",
+            "defense_only": true
+          },
+          "xian_team": {
+            "max": 3,
+            "unit_classes": ["O_T_VTOL_02_infantry_dynamicLoadout_F"],
+            "description": "Xian Armed Infantry Vehicle",
+            "defense_only": true
+          },
+          "cas_plane": {
+            "max": 3,
+            "unit_classes": ["O_Plane_CAS_02_dynamicLoadout_F"],
+            "description": "Close Air Support Neophrone Plane",
+            "defense_only": true
+          },
+          "cap_plane": {
+            "max": 3,
+            "unit_classes": ["O_Plane_Fighter_02_Stealth_F"],
+            "description": "Stealth Combat Air Patrol Shikra Plane",
+            "defense_only": true
+          }
+        },
+        "RESISTANCE": {
+          "infantry_squad": {
+            "max": 12,
+            "unit_classes": ["I_Soldier_TL_F", "I_Soldier_AR_F", "I_Soldier_GL_F", "I_Soldier_LAT_F", "I_soldier_M_F", "I_Soldier_F", "I_Soldier_F", "I_medic_F"],
+            "description": "Full infantry squad with AT, marksman, medic (8 men)",
+            "defense_only": false
+          },
+          "motorized_squad": {
+            "max": 6,
+            "unit_classes": ["I_MRAP_03_hmg_F"],
+            "description": "Armed transport with HMG",
+            "defense_only": false
+          },
+          "mechanized_squad": {
+            "max": 4,
+            "unit_classes": ["I_APC_Wheeled_03_cannon_F"],
+            "description": "Wheeled APC with cannon",
+            "defense_only": false
+          },
+          "armor_squad": {
+            "max": 3,
+            "unit_classes": ["I_APC_tracked_03_cannon_F"],
+            "description": "Tracked IFV with autocannon",
+            "defense_only": false
+          },
+          "heavy_armor": {
+            "max": 2,
+            "unit_classes": ["I_MBT_03_cannon_F"],
+            "description": "Main battle tank",
+            "defense_only": true
+          },
+          "attack_helicopter": {
+            "max": 3,
+            "unit_classes": ["I_Heli_light_03_dynamicLoadout_F"],
+            "description": "Armed light helicopter",
+            "defense_only": false
+          },
+          "transport_helicopter": {
+            "max": 3,
+            "unit_classes": ["I_Heli_Transport_02_F"],
+            "description": "Medium transport helicopter",
+            "defense_only": false
+          },
+          "recon_team": {
+            "max": 2,
+            "unit_classes": ["I_recon_TL_F", "I_recon_M_F", "I_recon_LAT_F", "I_recon_medic_F"],
+            "description": "Special forces recon team (4 men)",
+            "defense_only": false
+          }
+        }
+      }
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    "custom_example": {
+      "description": "Example custom template - copy and modify to create your own configurations",
+      "_comment": "You can create unlimited custom templates. Simply copy this section, rename it, and adjust the asset counts and types.",
+      "sides": {
+        "EAST": {
+          "your_asset_name": {
+            "max": 1,
+            "unit_classes": ["O_Soldier_F"],
+            "description": "Your description here",
+            "defense_only": false,
+            "_comment_defense_only": "Set to true to restrict this asset to defense objectives only (defend_hq, defend_radiotower, etc)"
+          }
+        },
+        "WEST": {},
+        "RESISTANCE": {}
+      }
+    }
+  },
+
+  "_comment_custom_assets": "You can define any asset_type name you want (infantry_squad, heavy_armor, custom_name, etc). The LLM will use these names in deploy_asset commands.",
+  "_comment_unit_classes": "unit_classes must be valid Arma 3 class names. The system will spawn these units when the asset is deployed.",
+  "_comment_max": "max defines the maximum number of times this asset can be deployed during an AO. Set to 0 to disable.",
+  "_comment_defense_only_usage": "When defense_only=true, the validation system will REJECT deployments of this asset unless the current objective is defend AO."
+}

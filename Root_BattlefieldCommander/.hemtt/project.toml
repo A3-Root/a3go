@@ -1,0 +1,60 @@
+name = "Root's Battlefield Commander (BATCOM)"
+author = "Root"
+prefix = "root_batcom"
+mainprefix = "z"
+
+[files]
+include = [
+    "mod.cpp",
+    "meta.cpp",
+    "LICENSE",
+    "batcom_logo.paa",
+    "README*.md",
+    "batcom/**",
+]
+exclude = [
+    ".gitignore",
+    ".editorconfig",
+    "*.md",
+    "*.json",
+    "python/**",
+]
+
+[properties]
+author = "Root"
+url = "https://github.com/A3-Root/Root_BattlefieldCommander"
+
+[lints.sqf.banned_commands]
+options.banned = [
+    "execVM",
+]
+options.ignore = [
+    "addPublicVariableEventHandler",
+]
+
+[config.config_this_call]
+enabled = true
+
+[sqf.undefined]
+enabled = true
+options.check_orphan_code = true
+
+[sqf.if_not_else]
+enabled = true
+
+[sqf.shadowed]
+enabled = true
+
+[sqf.not_private]
+enabled = true
+
+[sqf.short_circuit_bool_var]
+enabled = true
+
+[version]
+git_hash = 0
+major = 1
+minor = 0
+patch = 0
+build = 0
+

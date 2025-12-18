@@ -1,3 +1,0 @@
-"""
-Command generation and management
-"""

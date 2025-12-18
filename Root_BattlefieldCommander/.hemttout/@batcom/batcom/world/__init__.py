@@ -1,3 +1,0 @@
-"""
-World state management modules
-"""
